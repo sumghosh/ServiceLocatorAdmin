@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<UserProductCertification>
+  <Data>
+    <TechnicianInformation>
+      <UserID>BP10179783</UserID>
+      <FirstName>Ty</FirstName>
+      <LastName>Matson</LastName>
+      <Address>
+        <AddressLine1>9900 Ch De La Cote-de-liesse</AddressLine1>
+        <AddressLine2></AddressLine2>
+        <City>Lachine</City>
+        <State></State>
+        <Province>Quebec</Province>
+        <PostalCode>H8T 1A1</PostalCode>
+        <Country>Canada</Country>
+        <County></County>
+        <Region>QC</Region>
+        <District></District>
+        <Latitude></Latitude>
+        <Longitude></Longitude>
+      </Address>
+      <ProductInformation>
+        <ProductModel>Lexmark 6500e</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark MX6500e</ProductModel>
+      </ProductInformation>
+      <CompanyInformation>
+        <ParentCompanyIdentifier>39991</ParentCompanyIdentifier>
+        <CompanyLocationIdentifier>20401</CompanyLocationIdentifier>
+        <CompanyName>Metafore Technologies Inc ASP</CompanyName>
+        <CompanyPrimaryPhoneNumber>8776382367</CompanyPrimaryPhoneNumber>
+        <CompanyEmail>hdesk@metafore.ca</CompanyEmail>
+        <CompanyAddress>
+          <AddressLine1>9900 Ch De La Cote-de-liesse</AddressLine1>
+          <AddressLine2></AddressLine2>
+          <City>Lachine</City>
+          <State></State>
+          <Province>Quebec</Province>
+          <PostalCode>H8T 1A1</PostalCode>
+          <Country>Canada</Country>
+          <County></County>
+          <Region>QC</Region>
+          <District></District>
+          <Latitude></Latitude>
+          <Longitude></Longitude>
+        </CompanyAddress>
+      </CompanyInformation>
+    </TechnicianInformation>
+  </Data>
+</UserProductCertification>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource name="jdbc/dealerlocator"
+        auth="Container"
+        driverClassName="com.mysql.jdbc.Driver"
+        type="javax.sql.DataSource"
+        username="dl_user"
+        password="lexmark123"
+        url="jdbc:mysql://localhost:3306/dealerlocator"/>
+</Context>
+        <!-- 
+    <Resource name="jdbc/dlocator"
+        auth="Container"
+        driverClassName="com.mysql.jdbc.Driver"
+        type="javax.sql.DataSource"
+        username="root"
+        password=""
+        url="jdbc:mysql://localhost:3306/dlocator"/>
+        -->

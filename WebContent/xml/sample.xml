@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<UserProductCertification>
+  <Data>
+    <TechnicianInformation>
+      <UserID>BP10181093</UserID>
+      <FirstName>Robert</FirstName>
+      <LastName>Franks</LastName>
+      <Address>
+        <AddressLine1>PO Box 550727</AddressLine1>
+        <AddressLine2></AddressLine2>
+        <City>Dallas</City>
+        <State>TX</State>
+        <Province></Province>
+        <PostalCode>75355-0727</PostalCode>
+        <Country>USA</Country>
+        <County>113</County>
+        <Region>TX</Region>
+        <District></District>
+        <Latitude></Latitude>
+        <Longitude></Longitude>
+      </Address>
+      <ProductInformation>
+        <ProductModel>Lexmark XS652de</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark T652dn</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark T650n</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark XS656de</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark X651de</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark X652de</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark X654de</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark X654dte</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark X656de</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark X656dte</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark X658de</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark X658dfe</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark XS651de</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark XS654de</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark XS658de</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark TS654dn</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark T654dn</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark T654n</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark T656dne</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark T650n</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark T652dn</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark X658dtfe</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark T652n</ProductModel>
+      </ProductInformation>
+      <CompanyInformation>
+        <ParentCompanyIdentifier>66137</ParentCompanyIdentifier>
+        <CompanyLocationIdentifier>20030</CompanyLocationIdentifier>
+        <CompanyName>Cesco</CompanyName>
+        <CompanyPrimaryPhoneNumber>2148248741</CompanyPrimaryPhoneNumber>
+        <CompanyEmail>gwilkerson@cesco-inc.com</CompanyEmail>
+        <CompanyAddress>
+          <AddressLine1>PO Box 550727</AddressLine1>
+          <AddressLine2></AddressLine2>
+          <City>Dallas</City>
+          <State>TX</State>
+          <Province></Province>
+          <PostalCode>75355-0727</PostalCode>
+          <Country>USA</Country>
+          <County>113</County>
+          <Region>TX</Region>
+          <District></District>
+          <Latitude></Latitude>
+          <Longitude></Longitude>
+        </CompanyAddress>
+      </CompanyInformation>
+    </TechnicianInformation>
+  </Data>
+  <Data>
+    <TechnicianInformation>
+      <UserID>BP10179783</UserID>
+      <FirstName>Ty</FirstName>
+      <LastName>Matson</LastName>
+      <Address>
+        <AddressLine1>9900 Ch De La Cote-de-liesse</AddressLine1>
+        <AddressLine2></AddressLine2>
+        <City>Lachine</City>
+        <State></State>
+        <Province>Quebec</Province>
+        <PostalCode>H8T 1A1</PostalCode>
+        <Country>Canada</Country>
+        <County></County>
+        <Region>QC</Region>
+        <District></District>
+        <Latitude></Latitude>
+        <Longitude></Longitude>
+      </Address>
+      <ProductInformation>
+        <ProductModel>Lexmark 6500e</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark MX6500e</ProductModel>
+      </ProductInformation>
+      <CompanyInformation>
+        <ParentCompanyIdentifier>39991</ParentCompanyIdentifier>
+        <CompanyLocationIdentifier>20401</CompanyLocationIdentifier>
+        <CompanyName>Metafore Technologies Inc ASP</CompanyName>
+        <CompanyPrimaryPhoneNumber>8776382367</CompanyPrimaryPhoneNumber>
+        <CompanyEmail>hdesk@metafore.ca</CompanyEmail>
+        <CompanyAddress>
+          <AddressLine1>9900 Ch De La Cote-de-liesse</AddressLine1>
+          <AddressLine2></AddressLine2>
+          <City>Lachine</City>
+          <State></State>
+          <Province>Quebec</Province>
+          <PostalCode>H8T 1A1</PostalCode>
+          <Country>Canada</Country>
+          <County></County>
+          <Region>QC</Region>
+          <District></District>
+          <Latitude></Latitude>
+          <Longitude></Longitude>
+        </CompanyAddress>
+      </CompanyInformation>
+    </TechnicianInformation>
+  </Data>
+    <Data>
+    <TechnicianInformation>
+      <UserID>BP10179784</UserID>
+      <FirstName>Sumanta</FirstName>
+      <LastName>Ghosh</LastName>
+      <Address>
+        <AddressLine1>4000 ABC Road</AddressLine1>
+        <AddressLine2></AddressLine2>
+        <City>Lachine</City>
+        <State></State>
+        <Province>Quebec</Province>
+        <PostalCode>H8T 1A1</PostalCode>
+        <Country>Canada</Country>
+        <County></County>
+        <Region>QC</Region>
+        <District></District>
+        <Latitude></Latitude>
+        <Longitude></Longitude>
+      </Address>
+      <ProductInformation>
+        <ProductModel>Lexmark 6500e</ProductModel>
+      </ProductInformation>
+      <ProductInformation>
+        <ProductModel>Lexmark MX6500e</ProductModel>
+      </ProductInformation>
+      <CompanyInformation>
+        <ParentCompanyIdentifier>39991</ParentCompanyIdentifier>
+        <CompanyLocationIdentifier>20401</CompanyLocationIdentifier>
+        <CompanyName>ABC Coporation</CompanyName>
+        <CompanyPrimaryPhoneNumber>1234567891</CompanyPrimaryPhoneNumber>
+        <CompanyEmail>hdesk@example.ca</CompanyEmail>
+        <CompanyAddress>
+          <AddressLine1>4000 ABC Road</AddressLine1>
+          <AddressLine2></AddressLine2>
+          <City>Lachine</City>
+          <State></State>
+          <Province>Quebec</Province>
+          <PostalCode>H8T 1A1</PostalCode>
+          <Country>USA</Country>
+          <County></County>
+          <Region>QC</Region>
+          <District></District>
+          <Latitude></Latitude>
+          <Longitude></Longitude>
+        </CompanyAddress>
+      </CompanyInformation>
+    </TechnicianInformation>
+  </Data>
+</UserProductCertification>

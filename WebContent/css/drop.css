@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing:border-box;
+}
+.heading-primary {
+  font-size:2em;
+  padding:2em;
+  text-align:center;
+}
+.acc dl,
+.acc-list {
+   border:1px solid #ddd;
+   &:after {
+       content: "";
+       display:block;
+       height:1em;
+       width:100%;
+       background-color:darken(#38cc70, 10%);
+     }
+}
+.acc dd,
+.acc__panel {
+   background-color:#eee;
+   font-size:1em;
+   line-height:1.5em;
+
+}
+.acc p {
+  padding:1em 2em 1em 2em;
+}
+
+.acc {
+    position:relative;
+    background-color:#eee;
+}
+.container {
+
+  margin:0 auto;
+  padding:2em 0 2em 0;
+}
+.accTitle,
+.acc__Heading {
+
+   text-align:left;
+     font-weight:700; 
+          text-decoration:none;
+          color:#00c424;
+
+  border-bottom:1px solid darken(#38cc70, 5%);
+  &:before {
+   content: "+";
+   font-size:1.5em;
+   line-height:0.5em;
+   float:left; 
+   transition: transform 0.3s ease-in-out;
+  }
+  &:hover {
+    background-color:darken(#38cc70, 10%);
+  }
+}
+.accTitleActive, 
+.accTitle.is-expanded {
+   background-color:darken(#38cc70, 10%);
+    &:before {
+     
+      transform:rotate(-225deg);
+    }
+	
+}
+.accItem {
+    height:auto;
+    overflow:auto; 
+    //SHAME: magic number to allow the acc to animate
+    
+     max-height:50em;
+    transition:max-height 1s;   
+ 
+    
+    @media screen and (min-width:48em) {
+         max-height:15em;
+        transition:max-height 0.5s
+        
+    }
+    
+   
+}
+ 
+.accItem.is-collapsed {
+    max-height:0;
+}
+.no-js .accItem.is-collapsed {
+  max-height: auto;
+}
+.animateIn {
+     animation: accIn 0.45s normal ease-in-out both 1; 
+}
+.animateOut {
+     animation: accOut 0.45s alternate ease-in-out both 1;
+}
+@keyframes accIn {
+  0% {
+    opacity: 0;
+    transform:scale(0.9) rotateX(-60deg);
+    transform-origin: 50% 0;
+  }
+  100% {
+    opacity:1;
+    transform:scale(1);
+  }
+}
+
+@keyframes accOut {
+    0% {
+       opacity: 1;
+       transform:scale(1);
+     }
+     100% {
+          opacity:0;
+           transform:scale(0.9) rotateX(-60deg);
+       }
+}
