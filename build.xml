@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="ServiceLocator">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../SW/eclipse-jee-kepler-SR2-win32-x86_64/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="Web App Libraries.libraryclasspath">
+        <pathelement location="WebContent/WEB-INF/lib/bcprov-jdk15on-154.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/com.google.guava_1.6.0.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/google-api-client-1.19.0.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/google-http-client-1.16.0-rc.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/google-http-client-jackson-1.16.0-rc.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/google-oauth-client-1.16.0-rc.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jackson-all-1.9.0.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jersey-bundle-1.19.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jstl-1.2.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org-apache-commons-codec.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.json.jar"/>
+    </path>
+    <path id="EAR Libraries.libraryclasspath"/>
+    <path id="Apache Tomcat v7.0 [Apache Tomcat v7.0].libraryclasspath">
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/annotations-api.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/catalina-ant.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/catalina-ha.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/catalina-tribes.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/catalina.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/commons-beanutils.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/commons-fileupload-1.0.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/commons-logging-1.0.3.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/ecj-4.2.1.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/el-api.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/ibatis-common-2.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/ibatis-dao-2.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/ibatis-sqlmap-2.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/jasper-el.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/jasper.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/jsp-api.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/log4j-1.2.8.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/ojdbc14.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/servlet-api.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/tomcat-api.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/tomcat-coyote.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/tomcat-dbcp.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/tomcat-i18n-es.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/tomcat-i18n-fr.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/tomcat-i18n-ja.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/tomcat-jdbc.jar"/>
+        <pathelement location="C:/apache-tomcat-7.0.34/lib/tomcat-util.jar"/>
+    </path>
+    <path id="mySQL.userclasspath">
+        <pathelement location="../mysql-connector-java-5.1.37/mysql-connector-java-5.1.37/mysql-connector-java-5.1.37-bin.jar"/>
+    </path>
+    <path id="crypto.userclasspath">
+        <pathelement location="../crypto/bcprov-jdk15on-154.jar"/>
+        <pathelement location="../crypto/org-apache-commons-codec.jar"/>
+        <pathelement location="../crypto/google-api-client-1.8.0-beta.jar"/>
+        <pathelement location="../crypto/com.google.guava_1.6.0.jar"/>
+        <pathelement location="../crypto/jackson-all-1.9.0.jar"/>
+        <pathelement location="../crypto/google-http-client-1.16.0-rc.jar"/>
+        <pathelement location="../crypto/google-oauth-client-1.16.0-rc.jar"/>
+    </path>
+    <path id="ServiceLocator.classpath">
+        <pathelement location="build/classes"/>
+        <path refid="Web App Libraries.libraryclasspath"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <path refid="Apache Tomcat v7.0 [Apache Tomcat v7.0].libraryclasspath"/>
+        <pathelement location="C:/xampp/tomcat/lib/servlet-api.jar"/>
+        <path refid="mySQL.userclasspath"/>
+        <path refid="crypto.userclasspath"/>
+    </path>
+    <path id="run.TestGoogleAuth.classpath">
+        <path refid="ServiceLocator.classpath"/>
+        <path refid="crypto.userclasspath"/>
+        <path refid="mySQL.userclasspath"/>
+    </path>
+    <path id="run.TestGoogleAuth.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+        <path refid="crypto.userclasspath"/>
+        <path refid="mySQL.userclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="build/classes"/>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="build/classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="ServiceLocator.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="PasswordHasher">
+        <java classname="com.lexmark.google.auth.PasswordHasher" failonerror="true" fork="yes">
+            <classpath refid="ServiceLocator.classpath"/>
+        </java>
+    </target>
+    <target name="SimpleDateFormatExample">
+        <java classname="com.lexmark.SimpleDateFormatExample" failonerror="true" fork="yes">
+            <classpath refid="ServiceLocator.classpath"/>
+        </java>
+    </target>
+    <target name="TestGoogleAuth">
+        <java classname="com.lexmark.google.auth.TestGoogleAuth" failonerror="true" fork="yes">
+            <classpath refid="run.TestGoogleAuth.classpath"/>
+            <bootclasspath>
+                <path refid="run.TestGoogleAuth.bootclasspath"/>
+            </bootclasspath>
+        </java>
+    </target>
+    <target name="war" description="Bundles the application as a WAR file" depends="clean, build">
+        <mkdir dir="WebContent/WEB-INF/classes"/>
+              	     
+        <copy includeemptydirs="false" todir="WebContent/WEB-INF/classes">
+        	<fileset dir="build/classes">
+            <include name="**/*.class"/>
+            </fileset>
+        </copy>
+              	     
+  	    <war destfile="ServiceLocator.war"
+  	        basedir="WebContent"
+  	        needxmlfile="false">
+  	    </war>
+   	</target>              	
+</project>
